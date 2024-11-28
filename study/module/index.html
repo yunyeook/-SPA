@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>module</title>
+  </head>
+  <body>
+    <!-- 모듈이 아닌 일반적인 .js파일의 경우 다른 식별자들은 다른 파일에 있는 식별자들의 접근이 가능하여 중복선언하면 오류발생함. -->
+    <!-- <script src="./index.js"></script>
+    <script src="./test.js"></script> -->
+    <script type="module" src="./index.mjs"></script>
+    <!-- <script type="module" src="./test.mjs"></script> : index.mjs퍄일에서 로드되었으므로 안써도 됨.-->
+  </body>
+</html>
